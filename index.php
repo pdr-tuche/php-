@@ -7,7 +7,6 @@
         nome: <input type="text" name="nome" /><br>
         idaade: <input type="text" name="idade"/><br>
         <input type="submit" value="Enviar"/>
-    </form>
-        
+    </form>        
   </body>
 </html>

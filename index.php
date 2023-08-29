@@ -1,12 +1,13 @@
+<?php?>
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-  <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Test</title>
-  </head>
-  <body>
+</head>
+<body>
     <h1>IDADE</h1>
     <form action="teste.php" method="post">
         <p>nome</p>
@@ -17,22 +18,22 @@
         <br>
         <input type="submit" value="Enviar"/>
     </form>
-      <hr>
+    <hr/>
 
 
       
-<h1>COR PREFERIDA</h1>      
-    <form action="teste2.php" method="get">
-        <p>sua cor preferida:</p>
-        <input type="text" name="cor"/>
-        <input type="submit" value = "cor"/>
-    </form>
-<hr>
+    <h1>COR PREFERIDA</h1>      
+        <form action="teste2.php" method="get">
+            <p>sua cor preferida:</p>
+            <input type="text" name="cor"/>
+            <input type="submit" value = "cor"/>
+        </form>
+    <hr/>
 
 
       
-      <h1>NOTA ALUNO</h1>
-      <form action="media.php" method="get">
+    <h1>NOTA ALUNO</h1>
+    <form action="media.php" method="get">
         <p>primeiranota:</p>
         <input type="number" name="nota1"/>
         <p>segundanota:</p>
@@ -41,8 +42,7 @@
         <input type="number" name="nota3"/>
         <input type="submit" value = "Enviar"/>
     </form>
-      <hr>
+    <hr/>
       
-  </body>
+</body>
 </html>
- 
